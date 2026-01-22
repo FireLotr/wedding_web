@@ -22,7 +22,7 @@ jobs:
       - run: bundle install
 
       # Build the site
-      - run: bundle exec jekyll build
+      - run: bundle exec jekyll build --destination ./_site
 
       # Deploy to GitHub Pages
       - uses: peaceiris/actions-gh-pages@v4
