@@ -1,0 +1,8 @@
+title: "Anna & Tomáš"
+description: "Wedding Website"
+url: "https://firelotr.github.io/wedding_web"
+baseurl: ""
+
+remote_theme: "cnorick/jekyll-theme-easy-wedding"
+plugins:
+  - jekyll-remote-theme
